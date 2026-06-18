@@ -23,7 +23,7 @@ function playRound(humanChoice, computerChoice) {
     humanScore++;
   }
   else if (humanChoice === "rock" && computerChoice === "paper") {
-    console.log("You Lose! Paper beats Scissor.");
+    console.log("You Lose! Paper beats rock.");
     computerScore++;
   }
   else if (humanChoice === "paper" && computerChoice === "rock") {
