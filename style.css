@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  padding: 0.5em; 
+  font-family: sans-serif, Verdana, Geneva, Tahoma, ;
+  font-weight: bold;
+  color: #ff4141;
+  font-size: 3em;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+button { 
+  font-size: 2.5em;
+  border-radius: 12px;
+  padding: 0.2em;
+}
+
+.rock {
+  border-color: gray;
+  border-style: solid;
+  background-color: #ec4c0d;
+}
+ 
+.paper {
+  border-color: white;
+  border-style: solid;
+  background-color: rgb(67, 67, 67);
+
+}
+
+.scissor {
+  border-color: #ec4c0d;
+  border-style: solid;
+  background-color: white;
+}
+
+.round {
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: courier, monospace;
+}
