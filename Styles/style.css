@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #068488;
+  color: #ffffff
+}
+
 .title {
   text-align: center;
   padding: 0.5em; 
@@ -30,8 +39,8 @@
 
 button { 
   font-size: 2.5em;
-  border-radius: 12px;
-  padding: 0.2em;
+  border-radius: 50%;
+  padding: 16px 24px;
 }
 
 .rock {
