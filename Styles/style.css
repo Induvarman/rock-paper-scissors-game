@@ -13,32 +13,64 @@ body {
   color: #ffffff
 }
 
-.title {
-  text-align: center;
-  padding: 0.5em; 
-  font-family: sans-serif, Verdana, Geneva, Tahoma, ;
-  font-weight: bold;
-  color: #ffffff;
+.header {
+  background-color: rgb(47, 47, 47);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 20%;
+}
+
+.logo {
+  font-family: 'Times New Roman', serif;
   font-size: 3em;
 }
 
-.content {
-  width: 100%;
+ul {
   display: flex;
-  justify-content: center;
   align-items: center;
+  list-style: none;
+  gap: 1em;
 }
 
-.content-body {
+li a {
+  color: white;
+  text-decoration: none;
+  /* background-color: #ec4c0d; */
+}
+
+
+.content {
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.5em;
+  margin: 0 auto;
   background-color: rgb(35, 33, 33);
   border-radius: 8px;
 }
+
+
+.title {
+  text-align: center;
+  padding: 0 0.3em; 
+  margin-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.round {
+  font-size: 2em;
+  font-weight: 600;
+  font-family: courier, monospace;
+  padding: 0 1em;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
 
 .buttons {
   display: flex;
@@ -71,8 +103,30 @@ button {
   background-color: white;
 }
 
-.round {
-  font-size: 1.2em;
-  font-weight: 600;
-  font-family: courier, monospace;
+.score {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.score p {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.winner {
+  color: #ec4c0d;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-bottom: 1em;
+}
+
+.footer {
+  background-color: rgb(47, 47, 47);
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1em;
 }
